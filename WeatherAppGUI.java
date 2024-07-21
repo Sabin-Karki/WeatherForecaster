@@ -132,9 +132,7 @@ public class WeatherAppGUI extends JFrame {
                     case "Snowy":
                         conditionImage.setIcon(loadImage("Assets/snow.png"));
                         break;
-                    default:
-                        conditionImage.setIcon(loadImage("Assets/default.png")); // Fallback image
-                        break;
+                   
                 }
 
                 // update temperature text
