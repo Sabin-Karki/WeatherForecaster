@@ -12,6 +12,7 @@ Weather Forecaster is a Java-based application that fetches and displays weather
 ## Project Structure
 WeatherForecaster/
 ├── assets/
+
 │ ├── clear.png
 │ ├── cloudy.png
 │ ├── humidity.png
@@ -19,11 +20,26 @@ WeatherForecaster/
 │ ├── search.png
 │ ├── snow.png
 │ ├── windspeed.png
+
+
 ├── lib/
 │ ├── json-simple-1.1.1.jar
+
 ├── src/
 │ ├── Main.java
 │ ├── WeatherApp.java
 │ ├── WeatherAppGUI.java
 ├── README.md
+
+## Prerequisites
+
+- Java Development Kit (JDK) 8 or higher
+- Internet connection to fetch weather data from the API
+
+  ## Credits
+
+- Weather data is fetched from the [Open-Meteo API](https://open-meteo.com/).
+- JSON parsing is done using the `json-simple-1.1.1` library.
+
+
 
